@@ -1,4 +1,4 @@
-:root { 
+:root {
     /* Colores */
     --primario: #9c27b0;
     --primario-oscuro: #89119d;
@@ -6,11 +6,10 @@
     --secundario-oscuro: rgb(233 187 2);
     --blanco: #fff;
     --negro: #000;
+
     /* Fuentes */
     --fuentePrincipal: "Staatliches", sans-serif;
 }
-
-
 
 html {
   box-sizing: border-box;
@@ -27,7 +26,7 @@ body {
     font-size: 1.5rem;
     background-color: var(--primario);
     line-height: 1.5;
-    font-family: var(--fuentePrincipal);
+    min-height: 100vh;
 }
 
 p { 
@@ -83,6 +82,8 @@ h3 {
 
 /* End Header */
 
+
+
 /* Nav */
 
 .nav {
@@ -96,6 +97,7 @@ h3 {
     font-weight: bold;
     color: var(--blanco);
     font-size: 2rem;
+    font-family: var(--fuentePrincipal);
 }
 
 .nav__link--active,
@@ -104,3 +106,18 @@ h3 {
 }
 
 /* End nav */
+
+/* Footer */
+
+.footer {
+    background-color: var(--primario-oscuro);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.footer__text {
+    text-align: center;
+    font-family: var(--fuentePrincipal);
+}
+
+/* End Footer */
