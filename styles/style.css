@@ -23,7 +23,7 @@ html {
 /* Globales */
 
 body {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     background-color: var(--primario);
     line-height: 1.5;
     font-family: var(--fuentePrincipal);
@@ -73,29 +73,31 @@ h3 {
 
 /* End Globales */
 
-/* logo */
+/* Header */
 
-.logo-pagina  {
+.header__logo  {
     height: 5rem;
-    margin: 1.5rem;
+    margin: 1.5rem 0;
 }
 
-/* End logo */
+/* End Header */
 
 /* Nav */
 
-.nav-principal {
+.nav {
     background-color: var(--primario-oscuro);
+    padding: 1rem;
+    gap: 1rem;
 }
 
-.nav-principal a {
-    padding: .5rem;
+.nav__link {
     text-transform: uppercase;
     font-weight: bold;
     color: var(--blanco);
 }
 
-.nav-principal a:hover {
+.nav__link--active,
+.nav__link:hover {
     color: var(--secundario);
 }
 
