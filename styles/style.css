@@ -14,8 +14,9 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5 %; /* reiniciar rem */
+  font-size: 62.5%; /* reiniciar rem */
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -94,6 +95,7 @@ h3 {
     text-transform: uppercase;
     font-weight: bold;
     color: var(--blanco);
+    font-size: 2rem;
 }
 
 .nav__link--active,
